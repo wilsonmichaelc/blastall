@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+	<data-sources />
+	<form-beans>
+	
+		<form-bean name="getProteinsForm" type="org.blastall.get.action.GetProteinsForm" />
+		
+	</form-beans>
+
+	<global-exceptions />
+	
+	<global-forwards>
+	
+		<forward name="getProteins" path="/getProteins.do" />
+		
+	</global-forwards>
+	
+	<action-mappings>
+	
+		<action path="/getProteins" 
+			type="org.blastall.get.action.GetProteinsAction"
+			scope="request"
+			validate="false"
+			name="getProteinsForm">
+		</action>
+		
+	</action-mappings>
+	
+</struts-config>

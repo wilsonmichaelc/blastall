@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="logic;6" location="350,50" dimension="89,75" />
+  <StrutsActivity path="/pages/logic.jsp" location="650,150" dimension="120,49" />
+  <StrutsActivity path="/logic.do.do" location="950,150" dimension="89,75" />
+  <StrutsActivity path="/pages/que.jsp" location="650,50" dimension="114,49" />
+  <StrutsActivity path="/pages/blast/hit/showHitsError.jsp" location="950,50" dimension="223,49" />
+  <StrutsTransition id="logic.do,error,/pages/logic.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="logic;6,null,/logic.do.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="394,87" />
+      <AbsolutePoint location="994,187" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="logic.do,success,/pages/logic.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="logic;6,null,/logic.do.do,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="0,0" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+
