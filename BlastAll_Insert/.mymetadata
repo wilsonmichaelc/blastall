@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="BlastAll_Insert"
+  id="myeclipse.1333991559477"
+  context-root="/xml"
+  j2ee-spec="5.0"
+  archive="BlastAll_Insert.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
