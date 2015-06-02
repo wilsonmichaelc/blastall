@@ -1,0 +1,1 @@
+Java program requests list of proteins to BLAST from Web Service, does the BLAST, then requests next set of proteins. The purpose of this application is to perform BLAST on many thousands, even millions of proteins. It is also assumed that you are running BLAST against a VERY LARGE database.
